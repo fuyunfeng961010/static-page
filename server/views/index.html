@@ -8,16 +8,332 @@
 	<title>首页</title>
 	<meta name="renderer" content="webkit">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- <link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="./bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="./css/base.css">
-	<link rel="stylesheet" href="./css/shouye.css">
-	<link rel="icon" href="./images/1.png"> -->
+	<link rel="stylesheet" href="./css/index.css">
+	<link rel="icon" href="./images/1.png">
 	<!--[if lt IE 9]>
       <script src="./js/html5shiv.min.js"></script>
       <script src="./js/respond.js"></script>
     <![endif]-->
 </head>
 <body>
-	<h3>hello static-page</h3>
+	<div id="container">
+		<!-- 页面头部  导航+标题-->
+		<div class="bg">
+			<div class="container">
+				<!-- 标题 -->
+				<div class="logo">
+					<a><span>T</span><span>a</span><span>s</span><span>t</span><span>y</span></a>
+					<span>.</span>
+				</div>
+				<div class='biaoti'>
+					<h1>The Best Coffee <em>&amp;</em> Restaurant <em>in</em> Brooklyn</h1>
+					<h2>Brought to you by<a href="#" target="_blank">freehtml5.co</a></h2>
+				</div>
+				<!-- 导航 -->
+				<span id='daohang' class='glyphicon glyphicon-menu-hamburger anniu' tihuan='glyphicon glyphicon-remove anniu' tihuan2='glyphicon glyphicon-menu-hamburger anniu' style='font-size:23px'></span>
+				<div class="daohang">
+					<div class="yiji">
+						<ul>
+							<li><a href="./index.html">Home</a></li>
+							<li><a href="./xiangqingye.html">Menu</a></li>
+							<li class='erji'><a href="./liebiaoye.html">Gallery</a>
+								<ul>
+									<li>Events</li>
+									<li>Food</li>
+									<li>Coffees</li>
+								</ul>
+							</li>
+							<li><a href="./zhuce.html">Reservation</a></li>
+							<li><a href="./denglu.html">About</a></li>
+							<li><a href="">Contact</a></li>
+							<span class='glyphicon glyphicon-arrow-down jiantou'></span>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 主体内容 -->
+		<div id="content">
+			<div class="kuang">
+				<div class="xiangying1">
+					<div class="tu1 col-md-6">
+						<img src="./images/1.jpg" alt="">
+					</div>
+					<div class="one col-md-6">
+						<h3>The Restaurant</h3>
+						<p class='p1'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae neque quisquam at deserunt ab praesentium architecto tempore saepe animi voluptatem molestias, eveniet aut laudantium alias, laboriosam excepturi, et numquam? Atque tempore iure tenetur perspiciatis, aliquam, asperiores aut odio accusamus, unde libero dignissimos quod aliquid neque et illo vero nesciunt. Sunt!</p>
+						<p class='p2'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam iure reprehenderit nihil nobis laboriosam beatae assumenda tempore, magni ducimus abentey.</p>
+						<p class='p3'><a href="">OUR HISTORY</a></p>
+					</div>
+				</div>
+
+				<div class="xiangying2">
+					<div class="two">
+						<h3>Today's Menu</h3>
+						<p class='p4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+					</div>	
+				</div>
+
+				<div class="xiangying3">
+					<div class="three col-sm-6 col-md-3">
+						<div class="three-shang">
+							<img src="./images/2.jpg" alt="">
+							<h3>Bake Potato Pizza Koko</h3>
+							<p>$20.50</p>
+						</div>
+						<div class="three-xia">
+							<p class='p5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						</div>
+					</div>
+					<div class="four col-sm-6 col-md-3">
+						<div class="four-shang">
+							<img src="./images/8.jpg" alt="">
+							<h3>Salted Fried Chicken KoKo</h3>
+							<p>$19.00</p>
+						</div>
+						<div class="four-xia">
+							<p class='p6'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						</div>
+					</div>
+					<div class="five col-sm-6 col-md-3">
+						<div class="five-shang">
+							<img src="./images/4.jpg" alt="">
+							<h3>Italian Sauce Mushroom</h3>
+							<p>$17.99</p>
+						</div>
+						<div class="five-xia">
+							<p class='p7'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						</div>
+					</div>
+					
+					<div class="sex col-sm-6 col-md-3">
+						<div class="sex-shang">
+							<img src="./images/5.jpg" alt="">
+							<h3>Fried Potato w/ Garlic</h3>
+							<p>$22.50</p>
+						</div>
+						<div class="sex-xia">
+							<p class='p8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="xiangying4">
+					<div class="saven col-md-12">
+						<h3>Testimony</h3>
+						<p class='p9'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis.</p>
+					</div>	
+				</div>
+
+				<div class="xiangying5">
+					<div class="eight col-md-12">
+						<div class="eight-shang col-md-6">
+							<img src="./images/6.jpg" alt="">
+						</div>
+						<div class="eight-xia col-md-6">
+							<p class='p10'>“ Quantum ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam. ”</p>
+							<p>— Jane Smith</p>
+						</div>
+					</div>
+				</div>
+				
+				<!-- 轮播 -->
+				<div class="xiangying6">
+					<div class="lunbo">
+						<div class="lunbo-shang col-md-8">
+							<div class="shang1">
+								<h3>Our Best <em>&amp;</em> Unique Menu</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis!</p>
+							</div>
+							<div class="shang2">
+								<h3>Egg with Mushroom</h3>
+								<p>Ink is a free html5 bootstrap and a multi-purpose template perfect for any type of websites. A combination of a minimal and modern design template. The features are big slider on homepage, smooth animation, product listing and many more</p>
+								<p><a href="#">LEARN MORE</a></p>
+							</div>
+						</div>
+						<div class="lunbo-xia col-md-4">
+							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+							  <ol class="carousel-indicators">
+							    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+							    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+							  </ol>
+
+							  <div class="carousel-inner" role="listbox">
+							    <div class="item active">
+							      <img src="./images/7.jpg" alt="...">
+							    </div>
+							    <div class="item">
+							      <img src="./images/8.jpg" alt="...">
+							    </div>
+							    <div class="item">
+							      <img src="./images/9.jpg" alt="...">
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="xiangying7">
+					<div class="nine col-md-12">
+						<h3>Events</h3>
+						<p class='p11'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, consequatur. Aliquam quaerat pariatur repellendus veniam nemo, saepe, culpa eius aspernatur cumque suscipit quae nobis illo tempora. Eum veniam necessitatibus, blanditiis facilis quidem dolore! Dolorem, molestiae.</p>
+					</div>
+				</div>
+
+				<div class="xiangying8">
+					<div class="meishi1 meione col-md-4 col-lg-4">
+						<div class="meishi1shang">
+							<img src="./images/10.jpg" class='img1' alt="">
+						</div>
+						<div class="meishixia">
+							<h3>Photoshoot On The Street</h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<div class='tubiao'>
+								<div class="tubiaozuo fl">
+									<span class='glyphicon glyphicon-heart-empty'></span>
+									<span class='active'>1.2K</span>
+									<span class='glyphicon glyphicon-eye-open'></span>
+									<span class='active'>2K</span>
+								</div>
+								<div class="tubiaoyou fr">
+									<span class='glyphicon glyphicon-arrow-right'></span>
+									<span class="read">Read More</span>
+								</div>
+								<div style="clear:both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="meishi1 meishi2 meitwo col-md-4 col-lg-4">
+						<div class="meishi1shang">
+							<img src="./images/11.jpg" class='img2' alt="">
+						</div>
+						<div class="meishixia">
+							<h3>Photoshoot On The Street</h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<div class='tubiao'>
+								<div class="tubiaozuo fl">
+									<span class='glyphicon glyphicon-heart-empty'></span>
+									<span class='active'>1.2K</span>
+									<span class='glyphicon glyphicon-eye-open'></span>
+									<span class='active'>2K</span>
+								</div>
+								<div class="tubiaoyou fr">
+									<span class='glyphicon glyphicon-arrow-right'></span>
+									<span class="read">Read More</span>
+								</div>
+								<div style="clear:both"></div>
+							</div>
+						</div>
+					</div>
+					<div class="meishi1 meishi3 meithree col-md-4 col-lg-4">
+						<div class="meishi1shang">
+							<img src="./images/9.jpg" class='img3' alt="">
+						</div>
+						<div class="meishixia">
+							<h3>Photoshoot On The Street</h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<div class='tubiao'>
+								<div class="tubiaozuo fl">
+									<span class='glyphicon glyphicon-heart-empty'></span>
+									<span class='active'>1.2K</span>
+									<span class='glyphicon glyphicon-eye-open'></span>
+									<span class='active'>2K</span>
+								</div>
+								<div class="tubiaoyou fr">
+									<span class='glyphicon glyphicon-arrow-right'></span>
+									<span class="read">Read More</span>
+								</div>
+								<div style="clear:both"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 尾部+底部 -->
+		<div id="footer">
+			<div class="beijing">
+				<h3>Book a Table</h3>
+				<p class='pxia'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus veniam ipsa fuga maxime odio? Eaque!</p>
+				<p class='now'><a href="">BOOK NOW</a></p>
+			</div>
+		</div>
+		<div id="dibu">
+			<div class="dibukuang">
+				<div class="liebiao">
+					<div class="liebiao1 col-md-3">
+						<h4>TASTY</h4>
+						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+					</div>
+					<div class="liebiao2 liebiao1 col-md-3">
+						<h4>LINKS</h4>
+						<ul>
+							<li><a href="">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Menu</a></li>
+							<li><a href="">Gallery</a></li>
+						</ul>
+					</div>
+					<div class="liebiao2 liebiao3 col-md-3">
+						<h4>CATEGORIES</h4>
+						<ul>
+							<li><a href="">Landing Page</a></li>
+							<li><a href="">Real Estate</a></li>
+							<li><a href="">Personal</a></li>
+							<li><a href="">Business</a></li>
+							<li><a href="">e-Commerce</a></li>
+						</ul>
+					</div>
+					<div class="liebiao3 liebiao4 col-md-3">
+						<h4>CONTACT INFORMATION</h4>
+						<ul>
+							<li>198 West 21th Street,</li>
+							<li>Suite 721 New York NY 10016</li>
+							<li><a href="">+ 1235 2355 98</a></li>
+							<li><a href="">info@yoursite.com</a></li>
+							<li><a href="">freehtml5.co</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="jinglintu">
+					<p>© 2016 Free HTML5. All Rights Reserved.More Templates <a href="">模板之家</a> - Collect from <a href="">网页模板</a></p>
+					<span class='jinglin1'></span>
+					<span class='jinglin2'></span>
+					<span class='jinglin3'></span>
+					<span class='jinglin4'></span>
+				</div>
+			</div>
+		</div>
+		<!-- 回到顶部 -->
+		<div class="top glyphicon glyphicon-arrow-up"></div>
+		<!-- 大屏导航2 -->
+		<div id="daohang2">
+			<div class="yiji2">
+				<ul class='shang'>
+					<li class='yi'><a href="./index.html">Home</a></li>
+					<li><a href="./xiangqingye.html">Menu</a></li>
+					<li class='erji2'><a href="./liebiaoye.html">Gallery</a>
+						<!-- ul隐藏框 -->
+						<div class='yincang'>
+							<p>Events</p>
+							<p>Food</p>
+							<p>Coffees</p>
+						</div>
+					</li>
+					<li><a href="./zhuce.html">Reservation</a></li>
+					<li><a href="./denglu.html">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script src='./js/jquery.min.js'></script>
+	<script src="./js/index.js"></script>
+	<script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

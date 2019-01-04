@@ -719,6 +719,8 @@ h2 a{
 		left: 10%;
 		background-color: #181818;
 	}
+}
+
 @media screen and (min-width:992px) {
 	h1,h2{
 		line-height: 60px;
